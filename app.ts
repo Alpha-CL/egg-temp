@@ -1,6 +1,5 @@
 import { Application, IBoot } from "egg";
 import * as path from "path";
-import "egg-sequelize/index";
 
 export default class FooBoot implements IBoot {
 	
@@ -44,5 +43,6 @@ export default class FooBoot implements IBoot {
 	async beforeClose() {
 		// Do some thing before app close.
 	}
-};
+}
+
 
